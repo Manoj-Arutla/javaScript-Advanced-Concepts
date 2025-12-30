@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Propagation</title>
+</head>
+<style>
+    div{
+        min-height: 200px;
+        min-width: 200px;
+        padding: 50px;
+        border: 2px solid red;
+    }
+</style>
+<body>
+    <div id="grandParent">
+        GrandParent
+        <div id="parent">
+            Parent
+            <div id="child">
+                Child
+            </div>
+        </div>
+        <script src="eventPropagation.js"></script>
+    </div>
+</body>
+</html>
