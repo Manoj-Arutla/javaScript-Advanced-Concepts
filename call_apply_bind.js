@@ -7,8 +7,8 @@ let name1 = {
     
 }
 
-let printFullName = function(place,greetigs){
-        console.log(this.firstName +" "+ this.lastName +" from "+ place +", " + greetigs );
+let printFullName = function(place,greetings){
+        console.log(this.firstName +" "+ this.lastName +" from "+ place +", " + greetings );
     }
 
 let name2 = {

@@ -1,5 +1,4 @@
 class Employee{
-
     constructor(name){
         this.name = name;
         console.log(`${this.name} constroctor is invoked!`);

@@ -46,7 +46,7 @@ document.querySelector('#inputED').addEventListener('input', (e)=>{
     --> DOM Manupulation
 
     Con's:
-    --> There are events that are not bubbled up. like 'blur Event
+    --> There are events that are not bubbled up. like 'blur' Event
     --> cant use e.stopPropagation as it stops the event propafation of the next child
     elements
 */
