@@ -1,4 +1,4 @@
-//Event Bubbling! --> by default hte useCapture argument is set to false
+//Event Bubbling! --> by default the useCapture argument is set to false
 //hence events are always bubbled up if the third argument is not set to true.
 
 /*
@@ -43,7 +43,7 @@ top to bottom.
 
 -->!!!Important!!!
 we have event handler 'e' inside of the addEventListener's callback.
-use 'e' we can stop the events propagation
+use 'e' to stop the events propagation
 
 to stop event propagation, use:
 
